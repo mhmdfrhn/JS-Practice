@@ -33,3 +33,32 @@ console.log(whatsapp.sendMessage("hello", "628978473105"));
 console.log(
   whatsapp.sendBroadcastMessage("hello", ["628978473105", "628978473105"])
 );
+
+// > using es6 syntax
+
+class MailService {
+  constructor(sender) {
+    this.sender = sender;
+  }
+
+  sendMessage(message, reciever) {
+    console.log(`${this.sender} sent ${message} to ${reciever}`);
+  }
+}
+
+class WhatsappService extends MailService {
+  sendBroadcastMessage(message, recievers) {
+    for (const reciever of recievers) {
+      this.sendMessage(message, reciever);
+    }
+  }
+}
+
+class EmailService extends MailService {
+  sendDelayMessage(message, reciever, delay) {
+    setTimeout(() => {
+      this.message = message;
+      this.reciever = reciever;
+    }, delay);
+  }
+}
