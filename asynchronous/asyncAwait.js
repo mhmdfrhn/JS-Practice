@@ -51,6 +51,4 @@ async function getToAllAccess() {
   }
 }
 
-getToAllAccess(1)
-  .then((res) => console.log(res))
-  .catch((err) => console.log(err));
+getToAllAccess()
