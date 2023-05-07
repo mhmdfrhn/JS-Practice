@@ -41,10 +41,16 @@ function useTollCard(card) {
 }
 
 async function getToAllAccess() {
-  const buy = await buyTollRoadCard(25);
-  const topUp = await topUpBalance(buy, 10);
-  const access = useTollCard(topUp);
-  return access;
+  try {
+    const buy = await buyTollRoadCard(25);
+    const topUp = await topUpBalance(buy, 10);
+    const access = useTollCard(topUp);
+    return access;
+  } catch (error) {
+    console.log(error.message);
+  }
 }
 
-getToAllAccess();
+getToAllAccess(1)
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
