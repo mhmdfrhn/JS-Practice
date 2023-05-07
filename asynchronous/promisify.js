@@ -11,7 +11,7 @@ function getProvinces(countryId, callback) {
       return;
     }
     callback(new Error("Country not found"), null);
-  });
+  }, 1000);
 }
 
 const getProvincesPromise = promisify(getProvinces);
