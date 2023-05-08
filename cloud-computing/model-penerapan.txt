@@ -1,0 +1,12 @@
+tiga model penerapan komputasi cloud (penggunaan sesuai kebutuhan): cloud-based, on-premises(local), dan hybrid.
+
+1. cloud-based deployment
+   dalam penerapan cloud-based, kita dapat merancang, membangun, dan menjalankan aplikasi baru di cloud. anda juga bisa melakukan migrasi aplikasi yang telah ada ke cloud.
+
+   kita dapat membangun aplikasi tersebut pada low-level infrastructure yang mana memerlukan staff IT untuk mengelolanya. atau dengan alternatif lain, yaitu menggunakan higher-level services sehingga mengurangi kebutuhan penglolaan, arsitektur, dan scaling pada infrastruktur.
+
+2. on-premises deployment
+   on-premises juga dikenal sebagai private cloud. dalam model ini sumber daya di deploy menggunakan layanan manajemen aplikasi dan teknologi virtualisasi pada data center pribadi sehingga penggunaan dan pemanfaatannya dapat meningkat.
+
+3. hybrid deployment
+   menerapkan sumber daya berbasis cloud terhubung ke data center on-premises. kita bisa menggunakan pendekatan ini untuk beberapa situasi, seperti aplikasi lama yang memang lebih baik dikelola on-premises atau mungkin karena peraturan pemerintah yang mengharuskan untuk menyimpan data tertentu di data ceter lokal.
