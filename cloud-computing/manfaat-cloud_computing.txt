@@ -1,0 +1,12 @@
+1.  ubah pengeluaran di muka (upfront expenses)
+    pengeluaran dimuka yang perlu anda investasikan mengacu pada data center, server fisik, dan sumber daya lain yang perlu di investasikan sebelum menggunakannya. sedangkan pengeluaran variabel (varibel expenses) berarti membayar hanya untuk sumber daya komputasi yang dikonsumsi.
+
+2.  hentikan biaya pengelolaan dan pemeliharaan data center
+    komputasi di data center sering sekali mengharuskan kita untuk mengeluarkan lebih banyak biaya dan waktu untuk mengelola infrastruktur dan server.
+
+    dengan cloud computing kita tidak akan khawatir dengan tugas-tugas seperti ini, jadi bisa lebih memusatkan fokus pada aplikasi dan pelanggan.
+
+3.  berhenti menebak kapasitas
+    dengan cloud computing kita tak perlu untuk memprediksi berapa banyak kapasitas infrastruktur yang diperlukan sebelum mendeploy aplikasi
+
+    contoh: kita dapat meluncurkan amazon EC2 instance dan cukup membayar untuk waktu komputasi yang digunakan sesuai keinginan, bahkan kita juga dapat melakukan proses scale in(mengurangi) atau scale out(memperbanyak) kapasitas sesuai dengan permintaan
