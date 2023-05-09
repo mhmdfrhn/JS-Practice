@@ -1,0 +1,4 @@
+untuk mengizinkan traffic dari internet publik mengalir masuk dan keluar dari vpc (virtual private cloud), seorang pengguna (client) harus melampirkan Internet Gateway(IGW)
+
+- Virtual Private Gateway
+  kita bisa memasang virtual private Gateway yang hanya mengizinkan suatu permintaan jika ia berasal dari jaringan yang disetujui, bukan internet public. ini memudahkan kita untuk membuat koneksi VPN (virtual private network) terenkripsi antara jaringan privat, seperti data center on-premise atau jaringan perusahaan internal.
